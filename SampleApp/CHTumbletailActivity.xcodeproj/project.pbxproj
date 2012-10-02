@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EAC6872161AAFD900CD4C79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAC6871161AAFD900CD4C79 /* UIKit.framework */; };
+		0EAC6874161AAFD900CD4C79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAC6873161AAFD900CD4C79 /* Foundation.framework */; };
+		0EAC6876161AAFD900CD4C79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAC6875161AAFD900CD4C79 /* CoreGraphics.framework */; };
+		0EAC687C161AAFD900CD4C79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC687A161AAFD900CD4C79 /* InfoPlist.strings */; };
+		0EAC687E161AAFD900CD4C79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC687D161AAFD900CD4C79 /* main.m */; };
+		0EAC6882161AAFD900CD4C79 /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC6881161AAFD900CD4C79 /* CHAppDelegate.m */; };
+		0EAC6884161AAFD900CD4C79 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC6883161AAFD900CD4C79 /* Default.png */; };
+		0EAC6886161AAFD900CD4C79 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC6885161AAFD900CD4C79 /* Default@2x.png */; };
+		0EAC6888161AAFD900CD4C79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC6887161AAFD900CD4C79 /* Default-568h@2x.png */; };
+		0EAC688B161AAFD900CD4C79 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC6889161AAFD900CD4C79 /* MainStoryboard.storyboard */; };
+		0EAC688E161AAFD900CD4C79 /* CHMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC688D161AAFD900CD4C79 /* CHMasterViewController.m */; };
+		0EAC68BE161AB07D00CD4C79 /* CHTumbletailActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC68BD161AB07D00CD4C79 /* CHTumbletailActivity.m */; };
+		0EAC68C4161AE49800CD4C79 /* tumbletail_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC68C3161AE49800CD4C79 /* tumbletail_photo@2x.png */; };
+		0EAC68C7161AE6E900CD4C79 /* tumbletail_link@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC68C5161AE6E800CD4C79 /* tumbletail_link@2x.png */; };
+		0EAC68C8161AE6E900CD4C79 /* tumbletail_quote@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC68C6161AE6E900CD4C79 /* tumbletail_quote@2x.png */; };
+		0EAC68CA161AE7FC00CD4C79 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC68C9161AE7FC00CD4C79 /* sample.jpg */; };
+		0EAC68CE161AE82800CD4C79 /* tumbletail_link.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC68CB161AE82700CD4C79 /* tumbletail_link.png */; };
+		0EAC68CF161AE82800CD4C79 /* tumbletail_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC68CC161AE82700CD4C79 /* tumbletail_photo.png */; };
+		0EAC68D0161AE82800CD4C79 /* tumbletail_quote.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC68CD161AE82700CD4C79 /* tumbletail_quote.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EAC686D161AAFD900CD4C79 /* CHTumbletailActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHTumbletailActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EAC6871161AAFD900CD4C79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0EAC6873161AAFD900CD4C79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0EAC6875161AAFD900CD4C79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0EAC6879161AAFD900CD4C79 /* CHTumbletailActivity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CHTumbletailActivity-Info.plist"; sourceTree = "<group>"; };
+		0EAC687B161AAFD900CD4C79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EAC687D161AAFD900CD4C79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EAC687F161AAFD900CD4C79 /* CHTumbletailActivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CHTumbletailActivity-Prefix.pch"; sourceTree = "<group>"; };
+		0EAC6880161AAFD900CD4C79 /* CHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHAppDelegate.h; sourceTree = "<group>"; };
+		0EAC6881161AAFD900CD4C79 /* CHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAppDelegate.m; sourceTree = "<group>"; };
+		0EAC6883161AAFD900CD4C79 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0EAC6885161AAFD900CD4C79 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0EAC6887161AAFD900CD4C79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0EAC688A161AAFD900CD4C79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0EAC688C161AAFD900CD4C79 /* CHMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHMasterViewController.h; sourceTree = "<group>"; };
+		0EAC688D161AAFD900CD4C79 /* CHMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHMasterViewController.m; sourceTree = "<group>"; };
+		0EAC68BC161AB07D00CD4C79 /* CHTumbletailActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTumbletailActivity.h; sourceTree = "<group>"; };
+		0EAC68BD161AB07D00CD4C79 /* CHTumbletailActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTumbletailActivity.m; sourceTree = "<group>"; };
+		0EAC68C3161AE49800CD4C79 /* tumbletail_photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tumbletail_photo@2x.png"; sourceTree = "<group>"; };
+		0EAC68C5161AE6E800CD4C79 /* tumbletail_link@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tumbletail_link@2x.png"; sourceTree = "<group>"; };
+		0EAC68C6161AE6E900CD4C79 /* tumbletail_quote@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tumbletail_quote@2x.png"; sourceTree = "<group>"; };
+		0EAC68C9161AE7FC00CD4C79 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
+		0EAC68CB161AE82700CD4C79 /* tumbletail_link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tumbletail_link.png; sourceTree = "<group>"; };
+		0EAC68CC161AE82700CD4C79 /* tumbletail_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tumbletail_photo.png; sourceTree = "<group>"; };
+		0EAC68CD161AE82700CD4C79 /* tumbletail_quote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tumbletail_quote.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EAC686A161AAFD900CD4C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAC6872161AAFD900CD4C79 /* UIKit.framework in Frameworks */,
+				0EAC6874161AAFD900CD4C79 /* Foundation.framework in Frameworks */,
+				0EAC6876161AAFD900CD4C79 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EAC6862161AAFD900CD4C79 = {
+			isa = PBXGroup;
+			children = (
+				0EAC6877161AAFD900CD4C79 /* CHTumbletailActivity */,
+				0EAC6870161AAFD900CD4C79 /* Frameworks */,
+				0EAC686E161AAFD900CD4C79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EAC686E161AAFD900CD4C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EAC686D161AAFD900CD4C79 /* CHTumbletailActivity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EAC6870161AAFD900CD4C79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EAC6871161AAFD900CD4C79 /* UIKit.framework */,
+				0EAC6873161AAFD900CD4C79 /* Foundation.framework */,
+				0EAC6875161AAFD900CD4C79 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EAC6877161AAFD900CD4C79 /* CHTumbletailActivity */ = {
+			isa = PBXGroup;
+			children = (
+				0EAC6880161AAFD900CD4C79 /* CHAppDelegate.h */,
+				0EAC6881161AAFD900CD4C79 /* CHAppDelegate.m */,
+				0EAC6889161AAFD900CD4C79 /* MainStoryboard.storyboard */,
+				0EAC688C161AAFD900CD4C79 /* CHMasterViewController.h */,
+				0EAC688D161AAFD900CD4C79 /* CHMasterViewController.m */,
+				0EAC68C9161AE7FC00CD4C79 /* sample.jpg */,
+				0EAC68BB161AB06A00CD4C79 /* CHTumbletailActivity */,
+				0EAC6878161AAFD900CD4C79 /* Supporting Files */,
+			);
+			path = CHTumbletailActivity;
+			sourceTree = "<group>";
+		};
+		0EAC6878161AAFD900CD4C79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EAC6879161AAFD900CD4C79 /* CHTumbletailActivity-Info.plist */,
+				0EAC687A161AAFD900CD4C79 /* InfoPlist.strings */,
+				0EAC687D161AAFD900CD4C79 /* main.m */,
+				0EAC687F161AAFD900CD4C79 /* CHTumbletailActivity-Prefix.pch */,
+				0EAC6883161AAFD900CD4C79 /* Default.png */,
+				0EAC6885161AAFD900CD4C79 /* Default@2x.png */,
+				0EAC6887161AAFD900CD4C79 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EAC68BB161AB06A00CD4C79 /* CHTumbletailActivity */ = {
+			isa = PBXGroup;
+			children = (
+				0EAC68BC161AB07D00CD4C79 /* CHTumbletailActivity.h */,
+				0EAC68BD161AB07D00CD4C79 /* CHTumbletailActivity.m */,
+				0EAC68C3161AE49800CD4C79 /* tumbletail_photo@2x.png */,
+				0EAC68C5161AE6E800CD4C79 /* tumbletail_link@2x.png */,
+				0EAC68C6161AE6E900CD4C79 /* tumbletail_quote@2x.png */,
+				0EAC68CB161AE82700CD4C79 /* tumbletail_link.png */,
+				0EAC68CC161AE82700CD4C79 /* tumbletail_photo.png */,
+				0EAC68CD161AE82700CD4C79 /* tumbletail_quote.png */,
+			);
+			name = CHTumbletailActivity;
+			path = ../../CHTumbletailActivity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EAC686C161AAFD900CD4C79 /* CHTumbletailActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EAC6894161AAFD900CD4C79 /* Build configuration list for PBXNativeTarget "CHTumbletailActivity" */;
+			buildPhases = (
+				0EAC6869161AAFD900CD4C79 /* Sources */,
+				0EAC686A161AAFD900CD4C79 /* Frameworks */,
+				0EAC686B161AAFD900CD4C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHTumbletailActivity;
+			productName = CHTumbletailActivity;
+			productReference = 0EAC686D161AAFD900CD4C79 /* CHTumbletailActivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EAC6864161AAFD900CD4C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CH;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = cathand.org;
+			};
+			buildConfigurationList = 0EAC6867161AAFD900CD4C79 /* Build configuration list for PBXProject "CHTumbletailActivity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0EAC6862161AAFD900CD4C79;
+			productRefGroup = 0EAC686E161AAFD900CD4C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EAC686C161AAFD900CD4C79 /* CHTumbletailActivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EAC686B161AAFD900CD4C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAC687C161AAFD900CD4C79 /* InfoPlist.strings in Resources */,
+				0EAC6884161AAFD900CD4C79 /* Default.png in Resources */,
+				0EAC6886161AAFD900CD4C79 /* Default@2x.png in Resources */,
+				0EAC6888161AAFD900CD4C79 /* Default-568h@2x.png in Resources */,
+				0EAC688B161AAFD900CD4C79 /* MainStoryboard.storyboard in Resources */,
+				0EAC68C4161AE49800CD4C79 /* tumbletail_photo@2x.png in Resources */,
+				0EAC68C7161AE6E900CD4C79 /* tumbletail_link@2x.png in Resources */,
+				0EAC68C8161AE6E900CD4C79 /* tumbletail_quote@2x.png in Resources */,
+				0EAC68CA161AE7FC00CD4C79 /* sample.jpg in Resources */,
+				0EAC68CE161AE82800CD4C79 /* tumbletail_link.png in Resources */,
+				0EAC68CF161AE82800CD4C79 /* tumbletail_photo.png in Resources */,
+				0EAC68D0161AE82800CD4C79 /* tumbletail_quote.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EAC6869161AAFD900CD4C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAC687E161AAFD900CD4C79 /* main.m in Sources */,
+				0EAC6882161AAFD900CD4C79 /* CHAppDelegate.m in Sources */,
+				0EAC688E161AAFD900CD4C79 /* CHMasterViewController.m in Sources */,
+				0EAC68BE161AB07D00CD4C79 /* CHTumbletailActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EAC687A161AAFD900CD4C79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EAC687B161AAFD900CD4C79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0EAC6889161AAFD900CD4C79 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EAC688A161AAFD900CD4C79 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EAC6892161AAFD900CD4C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0EAC6893161AAFD900CD4C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EAC6895161AAFD900CD4C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHTumbletailActivity/CHTumbletailActivity-Prefix.pch";
+				INFOPLIST_FILE = "CHTumbletailActivity/CHTumbletailActivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0EAC6896161AAFD900CD4C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHTumbletailActivity/CHTumbletailActivity-Prefix.pch";
+				INFOPLIST_FILE = "CHTumbletailActivity/CHTumbletailActivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EAC6867161AAFD900CD4C79 /* Build configuration list for PBXProject "CHTumbletailActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EAC6892161AAFD900CD4C79 /* Debug */,
+				0EAC6893161AAFD900CD4C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EAC6894161AAFD900CD4C79 /* Build configuration list for PBXNativeTarget "CHTumbletailActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EAC6895161AAFD900CD4C79 /* Debug */,
+				0EAC6896161AAFD900CD4C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EAC6864161AAFD900CD4C79 /* Project object */;
+}
